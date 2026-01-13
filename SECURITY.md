@@ -1,48 +1,3 @@
-# Security Policy
-
-## Our Security Commitment
-
-Security and privacy are core principles of CleverKeys. We take security vulnerabilities seriously and appreciate the responsible disclosure of any issues you discover.
-
----
-
-## Supported Versions
-
-| Version | Supported          | Status |
-| ------- | ------------------ | ------ |
-| 1.0.x   | :white_check_mark: | Current stable release |
-| < 1.0   | :x:                | Development versions (not released) |
-
----
-
-## Reporting a Vulnerability
-
-### Please Report Security Vulnerabilities Responsibly
-
-**DO NOT** open a public GitHub issue for security vulnerabilities.
-
-### How to Report
-
-**Email**: security@cleverkeys.org *(to be set up)*
-
-**Temporary**: Use GitHub Security Advisories (private disclosure)
-- Go to: https://github.com/OWNER/cleverkeys/security/advisories/new
-- Or email the maintainers privately
-
-### What to Include
-
-Please include as much information as possible:
-
-1. **Vulnerability Type**
-   - What type of vulnerability is it? (e.g., injection, authentication bypass, data exposure)
-
-2. **Impact**
-   - What could an attacker do with this vulnerability?
-   - Who is affected? (all users, specific configurations, etc.)
-
-3. **Steps to Reproduce**
-   - Detailed steps to reproduce the vulnerability
-   - Sample code or proof of concept (if applicable)
 
 4. **Affected Versions**
    - Which versions are affected?
@@ -117,7 +72,52 @@ We are committed to responding promptly to security reports:
 3. **Fix Development** (timeline varies)
    - Develop and test a fix
    - Keep you updated on progress
-   - Share patch for your review (if desired)
+   - Share patch # Security Policy
+
+## Our Security Commitment
+
+Security and privacy are core principles of CleverKeys. We take security vulnerabilities seriously and appreciate the responsible disclosure of any issues you discover.
+
+---
+
+## Supported Versions
+
+| Version | Supported          | Status |
+| ------- | ------------------ | ------ |
+| 1.0.x   | :white_check_mark: | Current stable release |
+| < 1.0   | :x:                | Development versions (not released) |
+
+---
+
+## Reporting a Vulnerability
+
+### Please Report Security Vulnerabilities Responsibly
+
+**DO NOT** open a public GitHub issue for security vulnerabilities.
+
+### How to Report
+
+**Email**: security@cleverkeys.org *(to be set up)*
+
+**Temporary**: Use GitHub Security Advisories (private disclosure)
+- Go to: https://github.com/OWNER/cleverkeys/security/advisories/new
+- Or email the maintainers privately
+
+### What to Include
+
+Please include as much information as possible:
+
+1. **Vulnerability Type**
+   - What type of vulnerability is it? (e.g., injection, authentication bypass, data exposure)
+
+2. **Impact**
+   - What could an attacker do with this vulnerability?
+   - Who is affected? (all users, specific configurations, etc.)
+
+3. **Steps to Reproduce**
+   - Detailed steps to reproduce the vulnerability
+   - Sample code or proof of concept (if applicable)
+ your review (if desired)
 
 4. **Coordinated Disclosure** (90 days default)
    - We'll coordinate disclosure timeline with you
